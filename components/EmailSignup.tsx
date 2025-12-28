@@ -8,8 +8,9 @@ export default function EmailSignup() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // No backend - just simulate success
-    if (email && email.includes("@")) {
+    // No backend - just simulate success with basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (email && emailRegex.test(email)) {
       setStatus("success");
       setEmail("");
       setTimeout(() => setStatus("idle"), 3000);
