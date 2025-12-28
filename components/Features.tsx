@@ -32,7 +32,7 @@ export default function Features() {
     },
     {
       title: "Conditions for Deep Work",
-      description: "Analyzes when you tend to do your best thinking and feel most alive — surfacing the conditions that produce your good stuff",
+      description: "Analyzes when you tend to do your best thinking and feel most alive — surfacing the conditions that produce genuine insight",
       icon: "💡"
     }
   ];
