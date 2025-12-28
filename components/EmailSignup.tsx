@@ -20,7 +20,7 @@ export default function EmailSignup() {
           Get Early Access
         </h2>
         <p className="text-xl text-gray-400 mb-8">
-          Join the waitlist and be among the first to experience Tectonika
+          Join the waitlist and be among the first to map your inner tectonics
         </p>
         
         {status === "success" ? (

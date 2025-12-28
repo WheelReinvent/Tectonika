@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tectonika - Building Tomorrow's Digital Infrastructure",
-  description: "Tectonika is a revolutionary platform that reimagines how we build and deploy modern applications with robust, scalable infrastructure.",
+  title: "Tectonika - See What Moves You Beneath the Surface",
+  description: "A personal system for understanding your inner tectonics – the deep processes inside your body and mind that shape how you feel, think and behave.",
 };
 
 export default function RootLayout({
