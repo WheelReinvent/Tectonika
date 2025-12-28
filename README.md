@@ -1,10 +1,10 @@
 # Tectonika
 
-A modern landing page for Tectonika - Building the foundation for tomorrow's digital infrastructure.
+A modern landing page for Tectonika - Inner tectonics of the human mind and body.
 
 ## Overview
 
-Tectonika is a Next.js-based landing page featuring a clean, dark theme design with smooth scrolling and responsive layout. The page showcases the product through multiple sections including hero, features, philosophy, and email signup.
+Tectonika is a Next.js-based landing page featuring a clean, dark theme design with smooth scrolling and responsive layout. The page showcases Tectonika as a personal system for understanding your inner tectonics – the slow, deep processes inside your body and mind that shape how you feel, think and behave on the surface.
 
 ## Features
 
@@ -65,7 +65,7 @@ npm start
 ├── components/            # React components
 │   ├── Hero.tsx          # Hero section
 │   ├── WhatIs.tsx        # What is Tectonika section
-│   ├── CoreIdea.tsx      # Core Idea section
+│   ├── CoreIdea.tsx      # Core Concepts section
 │   ├── Features.tsx      # Features showcase
 │   ├── Philosophy.tsx    # Philosophy section
 │   ├── EmailSignup.tsx   # Email signup form
@@ -76,11 +76,11 @@ npm start
 
 ## Sections
 
-1. **Hero** - Eye-catching introduction with call-to-action buttons
-2. **What is Tectonika** - Product description and value proposition
-3. **Core Idea** - Three pillars: Foundational, Dynamic, Universal
-4. **Features** - Six key features with icons and descriptions
-5. **Philosophy** - Mission statement and core values
+1. **Hero** - Eye-catching introduction with tagline "See what moves you beneath the surface"
+2. **What is Tectonika** - Explanation of the personal inner tectonics system
+3. **Core Concepts** - Three key concepts: Inner Tectonics, Silent Signals, State Graph
+4. **Key Features** - Seven features including State Check-ins, Sense Notebook, Tectonic Timeline, State Graph, Context Layer, Signals & Warnings, and Conditions for Deep Work
+5. **Philosophy** - Mission statement focused on understanding, not optimization
 6. **Email Signup** - Waitlist form (frontend-only, no backend)
 7. **Footer** - Links and copyright information
 

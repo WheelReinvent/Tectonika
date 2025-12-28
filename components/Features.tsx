@@ -1,34 +1,39 @@
 export default function Features() {
   const features = [
     {
-      title: "Lightning Fast",
-      description: "Optimized performance that keeps your applications running at peak speed",
-      icon: "⚡"
+      title: "State Check-ins",
+      description: "Quick, low-friction prompts to log how you feel, think and sense your body — enriched by sensor data and context",
+      icon: "✓"
     },
     {
-      title: "Rock Solid",
-      description: "Built on proven technologies with enterprise-grade reliability",
-      icon: "🛡️"
+      title: "Sense Notebook",
+      description: "A notebook where each note is tagged by state, feeling, energy, and environment — for capturing 'this feels important but I don't yet know why' thoughts",
+      icon: "📓"
     },
     {
-      title: "Seamless Integration",
-      description: "Connect with your existing tools and workflows effortlessly",
-      icon: "🔗"
+      title: "Tectonic Timeline",
+      description: "A long-view timeline that emphasizes shifts and phase changes, showing periods of stability, tension build-up, and inner earthquakes",
+      icon: "📊"
     },
     {
-      title: "Developer First",
-      description: "Intuitive APIs and comprehensive documentation for rapid development",
-      icon: "👨‍💻"
+      title: "State Graph",
+      description: "A visual map of your recurring states and typical transitions between them — see patterns like late-night stress leading to poor sleep",
+      icon: "🗺️"
     },
     {
-      title: "Auto Scaling",
-      description: "Automatically adjusts to handle traffic spikes and optimize costs",
-      icon: "📈"
+      title: "Context & Environment Layer",
+      description: "Tracks external cues (time, light, movement, noise, social context) and connects them with your internal states",
+      icon: "🌤️"
     },
     {
-      title: "Global CDN",
-      description: "Deploy globally with edge locations around the world",
-      icon: "🌐"
+      title: "Signals & Warnings",
+      description: "Detects early combinations of signals that usually precede a crash, shutdown, or spiral — helping you see patterns before they unfold",
+      icon: "⚠️"
+    },
+    {
+      title: "Conditions for Deep Work",
+      description: "Analyzes when you tend to do your best thinking and feel most alive — surfacing the conditions that produce genuine insight",
+      icon: "💡"
     }
   ];
 
@@ -36,7 +41,7 @@ export default function Features() {
     <section className="py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center">
-          Features
+          Key Features
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (

@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Tectonika</h3>
             <p className="text-gray-400">
-              Building the foundation for tomorrow&apos;s digital infrastructure
+              Understanding your inner tectonics – the deep processes that shape your life
             </p>
           </div>
           <div>

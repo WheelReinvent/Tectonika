@@ -6,7 +6,10 @@ export default function Hero() {
           Tectonika
         </h1>
         <p className="text-xl sm:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">
-          Building the foundation for tomorrow&apos;s digital infrastructure
+          See what moves you beneath the surface.
+        </p>
+        <p className="text-lg text-gray-500 mb-8 max-w-3xl mx-auto">
+          A system for reading the silent signals of your body, mind and environment – and mapping the inner tectonics that shape your life.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
@@ -19,7 +22,7 @@ export default function Hero() {
             href="#about"
             className="px-8 py-3 border border-gray-700 font-semibold rounded-lg hover:border-gray-500 transition-colors"
           >
-            Learn More
+            Learn How It Works
           </a>
         </div>
       </div>
