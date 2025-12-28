@@ -10,7 +10,7 @@ Tectonika is a Next.js-based landing page featuring a clean, dark theme design w
 
 - 🎨 **Dark Theme**: Modern dark color scheme with clean typography
 - 📱 **Responsive Design**: Fully responsive layout optimized for all devices
-- ⚡ **Next.js 14**: Built with the latest Next.js and React 19
+- ⚡ **Next.js 16**: Built with the latest Next.js 16 and React 19
 - 🎭 **Tailwind CSS**: Utility-first CSS framework for rapid styling
 - 📝 **TypeScript**: Type-safe code for better development experience
 - 🚀 **Vercel Ready**: Optimized for deployment on Vercel
